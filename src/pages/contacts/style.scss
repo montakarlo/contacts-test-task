@@ -1,0 +1,59 @@
+.page {
+  &--contacts{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .spinner-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contacts-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      padding: 0 2px;
+      .left-side {
+        .stat {
+          margin-left: 15px;
+          &:first-child {
+            margin-left: 0;
+          }
+          &--amount {
+            cursor: pointer;
+            color: #1890ff;
+            font-weight: 500;
+            &:hover{
+              color: #0276e3;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .pagination {
+        margin: 0;
+      }
+
+    }
+  }
+}
+
+.popOverNatAmount {
+  box-shadow: 0 0 0 1px rgba(29, 28, 29, 0.1),0 0px 12px 0 rgba(0,0,0,.05);
+  border-radius: 6px;
+  border: none;
+  padding: 6px 15px;
+  max-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

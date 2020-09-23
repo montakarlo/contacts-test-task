@@ -1,0 +1,36 @@
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: calc(100vh - 240px);
+
+  .card {
+    width: 19%;
+    margin: 0.5%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    .row {
+      margin: 3px 0;
+      &__title {
+        font-weight: 800;
+      }
+      &__data {
+        cursor: pointer;
+        color: #1890ff;
+        font-weight: 500;
+        &:hover{
+          color: #0276e3;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+  }
+}

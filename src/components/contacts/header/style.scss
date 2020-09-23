@@ -1,0 +1,41 @@
+@mixin button-unstyled {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  line-height: inherit;
+  overflow: initial;
+  padding: 0;
+  text-align: initial;
+  vertical-align: initial;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &:hover, &:active, &:disabled, &:focus {
+    outline: none
+  }
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5px;
+  margin-bottom: 5px;
+  
+  .update {
+    @include button-unstyled;
+    font-size: 16px;
+    color: #1890ff;
+  }
+
+  .header-container {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+  }
+}

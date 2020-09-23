@@ -1,0 +1,31 @@
+@mixin button-unstyled {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  line-height: inherit;
+  overflow: initial;
+  padding: 0;
+  text-align: initial;
+  vertical-align: initial;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  &:hover, &:active, &:disabled, &:focus {
+    outline: none
+  }
+}
+.left-side{
+  display: flex;
+  
+  .change-view {
+    @include button-unstyled;
+    margin-right: 15px;
+    font-size: 16px;
+    color: #1890ff;
+  }
+}

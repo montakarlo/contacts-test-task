@@ -1,0 +1,76 @@
+.layout {
+	$this: &;
+
+	min-height: 100vh !important;
+	line-height: 1.214;
+
+	&__header {
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		height: auto !important;
+		padding: 10px 2vw !important;
+		background-color: #fff !important;
+		box-shadow: 0 0 10px 0 rgba(#333, .33);
+		line-height: inherit !important;
+		text-align: center;
+
+		@media (min-width: 768px) {
+			padding: 10px 2.6vw !important;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		padding: 12px 2vw;
+		background-color: #fff !important;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+    background-size: cover;
+    max-height: calc(100vh - 64px - 65px);
+    .page-item.active .page-link {
+      background-color: #1890ff;
+      border-color: #1890ff;
+    }
+    .page-link {
+      color: #1890ff;
+    }
+    .button-unstyled {
+      background: none;
+      border: 0;
+      color: inherit;
+      font: inherit;
+      margin: 0;
+      line-height: inherit;
+      overflow: initial;
+      padding: 0;
+      text-align: initial;
+      vertical-align: initial;
+      cursor: pointer;
+      outline: none;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      &:hover, &:active, &:disabled, &:focus {
+        outline: none
+      }
+    }
+		@media (min-width: 768px) {
+			padding: 1.25vw 2.6vw;
+		}
+	}
+
+	&__footer {
+		padding: 12px 2vw !important;
+		background-color: #f1f1f1 !important;
+		text-align: center;
+
+		@media (min-width: 768px) {
+			padding: 1.25vw 2.6vw !important;
+		}
+	}
+}
+@import 'react-redux-toastr/src/styles/index'
