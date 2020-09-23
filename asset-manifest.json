@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/contacts-test-task/static/css/main.b9ba3ef8.chunk.css",
-    "main.js": "/contacts-test-task/static/js/main.29253e3c.chunk.js",
+    "main.js": "/contacts-test-task/static/js/main.04006a17.chunk.js",
     "runtime-main.js": "/contacts-test-task/static/js/runtime-main.3f4ae144.js",
     "static/css/2.08c04568.chunk.css": "/contacts-test-task/static/css/2.08c04568.chunk.css",
     "static/js/2.d4260af8.chunk.js": "/contacts-test-task/static/js/2.d4260af8.chunk.js",
     "index.html": "/contacts-test-task/index.html",
-    "precache-manifest.5af3fbedc809f849ade7a06cb2601e65.js": "/contacts-test-task/precache-manifest.5af3fbedc809f849ade7a06cb2601e65.js",
+    "precache-manifest.a27376ed7c061847253009eb231c4c2e.js": "/contacts-test-task/precache-manifest.a27376ed7c061847253009eb231c4c2e.js",
     "service-worker.js": "/contacts-test-task/service-worker.js",
     "static/js/2.d4260af8.chunk.js.LICENSE.txt": "/contacts-test-task/static/js/2.d4260af8.chunk.js.LICENSE.txt",
     "static/media/backdrop.jpg": "/contacts-test-task/static/media/backdrop.f7eab148.jpg",
@@ -18,6 +18,6 @@
     "static/css/2.08c04568.chunk.css",
     "static/js/2.d4260af8.chunk.js",
     "static/css/main.b9ba3ef8.chunk.css",
-    "static/js/main.29253e3c.chunk.js"
+    "static/js/main.04006a17.chunk.js"
   ]
 }
