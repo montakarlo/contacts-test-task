@@ -1,7 +1,7 @@
 import './style.scss';
 import React from 'react';
-import { SortOption } from 'components/contacts/sortOptions'
-import { FilterOption } from 'components/contacts/filterOptions'
+import { SortOption } from 'components/contacts/sortoptions'
+import { FilterOption } from 'components/contacts/filteroptions'
 
 const View = ({ setSortOption, sortOption, filterOption, setFilterOption,
   filterOptionItem, setFilterOptionItem, filterObject, updateContacts }) => {

@@ -1,7 +1,7 @@
 import { compose } from 'redux';
 import { connect } from 'react-redux';
 import { View } from './view';
-import { OActionTypes as contacts } from 'store/contactsStore/actions';
+import { OActionTypes as contacts } from 'store/contactsstore/actions';
 import { OActionTypes as app } from 'store/app/actions';
 
 const mapStateToProps = (state) => {

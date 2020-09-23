@@ -1,6 +1,6 @@
 import './style.scss';
 import React from 'react';
-import { CopyTooltip } from 'components/contacts/copyTooltip'
+import { CopyTooltip } from 'components/contacts/copytooltip'
 import { v4 as uuidv4 } from 'uuid';
 
 const View = ({ contacts, page, copyData }) => {
