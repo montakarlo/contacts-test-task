@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/contacts-test-task/static/css/main.b9ba3ef8.chunk.css",
-    "main.js": "/contacts-test-task/static/js/main.04006a17.chunk.js",
-    "runtime-main.js": "/contacts-test-task/static/js/runtime-main.3f4ae144.js",
-    "static/css/2.08c04568.chunk.css": "/contacts-test-task/static/css/2.08c04568.chunk.css",
-    "static/js/2.d4260af8.chunk.js": "/contacts-test-task/static/js/2.d4260af8.chunk.js",
-    "index.html": "/contacts-test-task/index.html",
-    "precache-manifest.a27376ed7c061847253009eb231c4c2e.js": "/contacts-test-task/precache-manifest.a27376ed7c061847253009eb231c4c2e.js",
-    "service-worker.js": "/contacts-test-task/service-worker.js",
-    "static/js/2.d4260af8.chunk.js.LICENSE.txt": "/contacts-test-task/static/js/2.d4260af8.chunk.js.LICENSE.txt",
-    "static/media/backdrop.jpg": "/contacts-test-task/static/media/backdrop.f7eab148.jpg",
-    "static/media/react-logo.svg": "/contacts-test-task/static/media/react-logo.ee7cd8ed.svg",
-    "static/media/wezom-logo.svg": "/contacts-test-task/static/media/wezom-logo.324b96ae.svg"
+    "main.css": "/contacts-test-task/contacts/static/css/main.b9ba3ef8.chunk.css",
+    "main.js": "/contacts-test-task/contacts/static/js/main.ef6f8ccb.chunk.js",
+    "runtime-main.js": "/contacts-test-task/contacts/static/js/runtime-main.50039f3e.js",
+    "static/css/2.08c04568.chunk.css": "/contacts-test-task/contacts/static/css/2.08c04568.chunk.css",
+    "static/js/2.3d1e9453.chunk.js": "/contacts-test-task/contacts/static/js/2.3d1e9453.chunk.js",
+    "index.html": "/contacts-test-task/contacts/index.html",
+    "precache-manifest.e391ef35f94617a365596f19cff1438b.js": "/contacts-test-task/contacts/precache-manifest.e391ef35f94617a365596f19cff1438b.js",
+    "service-worker.js": "/contacts-test-task/contacts/service-worker.js",
+    "static/js/2.3d1e9453.chunk.js.LICENSE.txt": "/contacts-test-task/contacts/static/js/2.3d1e9453.chunk.js.LICENSE.txt",
+    "static/media/backdrop.jpg": "/contacts-test-task/contacts/static/media/backdrop.f7eab148.jpg",
+    "static/media/react-logo.svg": "/contacts-test-task/contacts/static/media/react-logo.ee7cd8ed.svg",
+    "static/media/wezom-logo.svg": "/contacts-test-task/contacts/static/media/wezom-logo.324b96ae.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f4ae144.js",
+    "static/js/runtime-main.50039f3e.js",
     "static/css/2.08c04568.chunk.css",
-    "static/js/2.d4260af8.chunk.js",
+    "static/js/2.3d1e9453.chunk.js",
     "static/css/main.b9ba3ef8.chunk.css",
-    "static/js/main.04006a17.chunk.js"
+    "static/js/main.ef6f8ccb.chunk.js"
   ]
 }
