@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/contacts-test-task/static/css/main.b9ba3ef8.chunk.css",
-    "main.js": "/contacts-test-task/static/js/main.f747acc9.chunk.js",
-    "runtime-main.js": "/contacts-test-task/static/js/runtime-main.3f4ae144.js",
-    "static/css/2.08c04568.chunk.css": "/contacts-test-task/static/css/2.08c04568.chunk.css",
-    "static/js/2.3d1e9453.chunk.js": "/contacts-test-task/static/js/2.3d1e9453.chunk.js",
-    "index.html": "/contacts-test-task/index.html",
-    "precache-manifest.83d6138114d38d3bdc64006c9a7d929c.js": "/contacts-test-task/precache-manifest.83d6138114d38d3bdc64006c9a7d929c.js",
-    "service-worker.js": "/contacts-test-task/service-worker.js",
-    "static/js/2.3d1e9453.chunk.js.LICENSE.txt": "/contacts-test-task/static/js/2.3d1e9453.chunk.js.LICENSE.txt",
-    "static/media/backdrop.jpg": "/contacts-test-task/static/media/backdrop.f7eab148.jpg",
-    "static/media/react-logo.svg": "/contacts-test-task/static/media/react-logo.ee7cd8ed.svg",
-    "static/media/wezom-logo.svg": "/contacts-test-task/static/media/wezom-logo.324b96ae.svg"
+    "main.css": "./static/css/main.b9ba3ef8.chunk.css",
+    "main.js": "./static/js/main.f747acc9.chunk.js",
+    "runtime-main.js": "./static/js/runtime-main.f1827ded.js",
+    "static/css/2.08c04568.chunk.css": "./static/css/2.08c04568.chunk.css",
+    "static/js/2.3d1e9453.chunk.js": "./static/js/2.3d1e9453.chunk.js",
+    "index.html": "./index.html",
+    "precache-manifest.11c949d4eb2b8e4f79cb2cf457cff596.js": "./precache-manifest.11c949d4eb2b8e4f79cb2cf457cff596.js",
+    "service-worker.js": "./service-worker.js",
+    "static/js/2.3d1e9453.chunk.js.LICENSE.txt": "./static/js/2.3d1e9453.chunk.js.LICENSE.txt",
+    "static/media/backdrop.jpg": "./static/media/backdrop.f7eab148.jpg",
+    "static/media/react-logo.svg": "./static/media/react-logo.ee7cd8ed.svg",
+    "static/media/wezom-logo.svg": "./static/media/wezom-logo.324b96ae.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f4ae144.js",
+    "static/js/runtime-main.f1827ded.js",
     "static/css/2.08c04568.chunk.css",
     "static/js/2.3d1e9453.chunk.js",
     "static/css/main.b9ba3ef8.chunk.css",
